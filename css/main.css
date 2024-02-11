@@ -1,0 +1,67 @@
+body {
+    font-family: 'Playfair Display';
+    margin: 0;
+    padding: 0;
+    color: #383838;
+}
+
+.header {
+    background-color: #b1afaf;
+    padding-bottom: 0;
+    margin: 7px;
+    margin-bottom: 0;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+
+.header h1{
+    text-align: center;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: inherit;
+}
+
+  
+.foot p{
+    text-align: center;
+    position: relative;
+}
+
+article, footer, header, menu, nav {
+	display: block;}
+
+article {
+    display: none;
+}
+
+nav {
+    margin: 0 auto; 
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+nav a {
+    transition: opacity 0.3s ease; /* Adding transition effect */
+  } 
+  
+nav a:hover {
+    opacity: 0.7; /* Adjust opacity on hover */
+}
+
+article {
+    padding: 2%;
+    margin-top: 0;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }  
